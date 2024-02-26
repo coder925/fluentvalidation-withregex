@@ -2,5 +2,5 @@
 {
     public string Name { get; set; } = "";
 
-    public ContactInfo Recipient { get; set; } = new ContactInfo();
+    public ContactInfo ContactInfo { get; set; } = new ContactInfo();
 }

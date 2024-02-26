@@ -45,7 +45,7 @@ app.MapGet("/teachers", () =>
 
 app.MapGet("/students", () =>
 {
-    return new List<Student> { new Student() { Recipient = new ContactInfo() }
+    return new List<Student> { new Student() { ContactInfo = new ContactInfo() }
 };
 
 })

@@ -4,6 +4,6 @@ public class StudentValidator : AbstractValidator<Student>
 {
     public StudentValidator()
     {
-        this.RuleFor(a => a.Recipient).SetValidator(new ContactInfoValidator());
+        this.RuleFor(a => a.ContactInfo).SetValidator(new ContactInfoValidator());
     }
 }
